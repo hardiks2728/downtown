@@ -40,5 +40,38 @@ List<Events> event = [
   Events(image: "images/14.jpeg", title: "Dance Party", subtitle: "Iscon Mall"),
   Events(image: "images/15.jpeg", title: "Get To Gether", subtitle: "Silver Business Point"),
   Events(image: "images/16.jpeg", title: "Sport Day", subtitle: "LalBhai Stadium"),
-  Events(image: "images/17.jpeg", title: "Navratri festival", subtitle: "Swarnbhumi Ground"),
+  Events(image: "images/17.webp", title: "Navratri festival", subtitle: "Swarnbhumi Ground"),
 ];
+
+class Services{
+  final String image;
+  final String title;
+  final String subtitle;
+
+  const Services({
+    required this.image,
+    required this.title,
+    required this.subtitle,
+  });
+}
+
+  List<Services> service = [
+    Services(image: "images/19.jpeg", title: "Government Services", subtitle: "72 utilities & Services "),
+    Services(image: "images/20.png", title: "Repair & Maintenance", subtitle: "2,221 Services in Town"),
+    Services(image: "images/21.webp", title: "Personal Care", subtitle: "1,298 Services in Town"),
+    Services(image: "images/22.jpeg", title: "Events & Wedding", subtitle: "109 Services in Town"),
+    Services(image: "images/23.png", title: "Household Services", subtitle: "2,423 Services in Town"),
+  ];
+
+class People{
+  final String image;
+  final String title;
+  final String subtitle;
+
+  const People({
+    required this.image,
+    required this.title,
+    required this.subtitle,
+  });
+
+}
